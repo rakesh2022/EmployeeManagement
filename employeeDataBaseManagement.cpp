@@ -160,7 +160,7 @@ system("CLS");
 lable:
 system("CLS");
 string username1,password1;
-cout<<"\t\tEYES ON STARS\n\n";
+cout<<"\n\t\tEYES ON STARS\n\n";
 cout<<"***Login***\n";
         cout<<"Enter Username : ";
         cin>>username1;
