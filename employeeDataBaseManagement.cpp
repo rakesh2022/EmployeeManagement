@@ -1,18 +1,19 @@
-#include<bits/stdc++.h>
+#include<iostream>
 #include<string>
-#include<Windows.h>
+#include<stdlib>                            // using this header file, we can use system("CLS") to clear output screen.      
+#include<Windows.h>                          // using this header file, we can use Sleep(time in milisecond) to clear output screen.   
 using namespace std;
-class emp{
+class emp{                                 //Employee working in the "EYES ON STARS" company.
     public:
 string name,depart,age,salary,id;
 };
-class staf{
+class staf{                                //staffs those can access and manipulate employee data.
     public:
     string user_name,user_password;
 };
-staf staffs[50];
+staf staffs[50];                           //Assuming maximum staffs to be 50.
 int total_staffs=0;
-emp e[100];
+emp e[100];                                //Assuming maximum working employees to be 100.
 int newId=1;
 int total = 0;
 void insert()
@@ -138,7 +139,7 @@ int main()
     string username="",password="";
     int option;
     cout<<"\t\tEYES ON STARS\n\n";
-    cout<<"\t\t******Sign Up****\n";
+    cout<<"\t\t******Sign Up****\n";                         //sign-up page
     cout<<"Enter Username : ";
     cin>>username;
     cout<<"\nEnter Password : ";
@@ -149,7 +150,7 @@ int main()
 cout<<"Please Wait creating Account";
 for(int i=0;i<4;i++){
     cout<<".";
-    Sleep(1000);
+    Sleep(1000);                                              Sleep
 }
 cout<<"\nCongratulations! Your Account is Successfully created.";
 for(int i=0;i<4;i++){
@@ -160,7 +161,7 @@ system("CLS");
 lable:
 system("CLS");
 string username1,password1;
-cout<<"\n\t\tEYES ON STARS\n\n";
+cout<<"\n\t\tEYES ON STARS\n\n";                                     //Login page
 cout<<"***Login***\n";
         cout<<"Enter Username : ";
         cin>>username1;
