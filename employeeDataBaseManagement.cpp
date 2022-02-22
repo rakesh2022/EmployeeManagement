@@ -150,7 +150,7 @@ int main()
 cout<<"Please Wait creating Account";
 for(int i=0;i<4;i++){
     cout<<".";
-    Sleep(1000);                                              Sleep
+    Sleep(1000);                                              
 }
 cout<<"\nCongratulations! Your Account is Successfully created.";
 for(int i=0;i<4;i++){
